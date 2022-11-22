@@ -13,6 +13,7 @@
 
 .screen-header__icons span{
   margin: 0px 10px;
+  position: relative;
 }
 
 .main-screen {

@@ -9,3 +9,38 @@
   color: white;
   font-weight: 600;
 }
+
+
+.noti{
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  }
+
+.point {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+
+.dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  right: 8px;
+  top: -8px;
+
+}
+
+
