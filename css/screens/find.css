@@ -106,5 +106,19 @@
 }
 
 
+@keyframes heartbeat {
+  from {
+    color: white;
+    transform: none;
+  }
+  to {
+    color: tomato;
+    transform: scale(1.5);
+  }
+}
 
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeat 1s linear infinite;
+}
 
